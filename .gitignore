@@ -1,0 +1,7 @@
+links.md
+*.log
+/.repro
+/.tests
+/build
+/debug
+/doc/tags
