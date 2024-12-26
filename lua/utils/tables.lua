@@ -1,6 +1,19 @@
 ---@class util.tables
 local M = {}
 
+M.keys = vim.tbl_keys
+M.value_count = vim.tbl_count
+M.is_list = vim.islist
+M.is_array = vim.isarray
+M.values = vim.tbl_values
+M.is_empty = vim.tbl_isempty
+M.iter = vim.iter
+M.get_path = vim.tbl_get
+M.filter = vim.tbl_filter
+M.contains = vim.tbl_contains
+M.extend = vim.tbl_extend
+M.deep_extend = vim.tbl_deep_extend
+
 -- Reverses the order of the input table
 ---@param input_table table
 ---@return table reveresed_table The reveresed form of the input table
