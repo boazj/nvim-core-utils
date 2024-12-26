@@ -9,3 +9,8 @@ _G.Core = {
   path = require 'utils.path',
   render = require 'utils.render',
 }
+
+_G.Tables = require 'utils.tables'
+_G.Path = require 'utils.path'
+_G.Render = require 'utils.render'
+_G.Strings = require 'utils.strings'
