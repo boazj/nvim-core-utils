@@ -1,6 +1,8 @@
 ---@class util.path
 local M = {}
 
+_G.Paths = M
+
 -- lua/plenary/path.lua
 local path_sep = (function()
   if jit then

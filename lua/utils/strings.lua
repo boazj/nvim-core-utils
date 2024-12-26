@@ -1,6 +1,8 @@
 ---@class util.strings
 local M = {}
 
+_G.Strings = M
+
 --- Return if the parameter string is empty or not
 ---@param s string | nil
 ---@return boolean

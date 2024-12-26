@@ -1,6 +1,8 @@
 ---@class util.tables
 local M = {}
 
+_G.Tables = M
+
 M.keys = vim.tbl_keys
 M.value_count = vim.tbl_count
 M.is_list = vim.islist
